@@ -26,7 +26,7 @@ done by Professor Kong (Phd.-Oxford University)
 <br>I wrote code for:
 <br>1) <b>ParserAndTranslator.java</b>  at location  <b>TJasn\ParserAndTranslator.java</b> 
 <br>2) <b>execute()</b> method of approx. 30 Instructions at folder Location: <b>TJasn\virtualmachine\</b>
-<br>3) <b>Parser.java</b>     \TJ1asn\Parser.java </b>
+<br>3) <b>Parser.java</b>  at location   <b>\TJ1asn\Parser.java </b>
 
 To know more about Tiny J:
 =========================
