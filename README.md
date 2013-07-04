@@ -16,7 +16,9 @@ overloading, program arguments, “return;” statements within the main() metho
 are ³ 231!216 = 2,147,418,112. Reserved words of TinyJ are shown in boldface. Some names used by Java 
 library packages, classes, and predefined methods (e.g., java, Scanner, main, and nextInt) are reserved 
 words of TinyJ. Otherwise, IDENTIFIER here means any Java identifier consisting of ASCII characters.
- 
+
+My Contribution to this program:
+================================
 There were total of 3 TinyJ assignments, Check the bottom of this file to get hint of what each assignment does.
 <br>Contribution:
 <br>About 30% of Code in Tiny J(Tiny Java) assignment is written by me  -- Gurpreet Singh, and 70% is 
@@ -28,7 +30,7 @@ done by Professor Kong (Phd.-Oxford University)
 
 To know more about Tiny J:
 =========================
-Read file: 'TinyJ-Assignment-1.pdf' 
+Read files: 'TinyJ-Assignment-1.pdf', 'TinyJ-Assignment-3.pdf', 'TinyJ-Assignment-3.pdf' 
 
 Examples:
 =========
@@ -39,8 +41,8 @@ TinyJ Assignment 1
 ==================
 It will not deal with compilation of TinyJ programs, nor with execution of virtual machine code, but only 
 with syntax analysis of TinyJ programs. The goal of TinyJ Assignment 1 is to complete a program that will:
-(a) determine whether its input file is a <program> according to the above EBNF rules, and
-(b) output a parse tree of the input file, if the input file is a <program>.  
+<br>(a) determine whether its input file is a <program> according to the above EBNF rules, and
+<br>(b) output a parse tree of the input file, if the input file is a <program>.  
 
 TinyJ Assignment 2
 ==================
