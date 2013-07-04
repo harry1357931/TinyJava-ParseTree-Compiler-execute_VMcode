@@ -1,0 +1,864 @@
+<program>
+ <importStmt>
+  Reserved Word: import
+  Reserved Word: java
+  .
+  Reserved Word: util
+  .
+  Reserved Word: Scanner
+  ;
+  ... node has no more children
+ Reserved Word: class
+ IDENTIFIER: CS316ex4  [not in symbol table]
+ {
+ <mainDecl>
+  Reserved Word: public
+  Reserved Word: static
+  Reserved Word: void
+  Reserved Word: main
+  (
+  Reserved Word: String
+  IDENTIFIER: args  [not in symbol table]
+  [
+  ]
+  )
+  *** Generating:  0:      INITSTKFRM        ?
+  <compoundStmt>
+   {
+   <statement>
+    <varDecl>
+     Reserved Word: int
+     <singleVarDecl>
+      IDENTIFIER: done  [not in symbol table]
+      =
+      *** Generating:  1:      PUSHLOCADDR       1
+      <expr3>
+       <expr2>
+        <expr1>
+         *** Generating:  2:      PUSHNUM           0
+         UNSIGNED INTEGER LITERAL: 0
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  3:      SAVETOADDR
+      ... node has no more children
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <whileStmt>
+     Reserved Word: while
+     (
+     <expr7>
+      <expr6>
+       <expr5>
+        <expr4>
+         <expr3>
+          <expr2>
+           <expr1>
+            !
+            <expr1>
+             (
+             <expr7>
+              <expr6>
+               <expr5>
+                <expr4>
+                 <expr3>
+                  <expr2>
+                   <expr1>
+                    (
+                    <expr7>
+                     <expr6>
+                      <expr5>
+                       <expr4>
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           IDENTIFIER: done  [local var (stackframe offset = 1)]
+                           *** Generating:  4:      PUSHLOCADDR       1
+                           *** Generating:  5:      LOADFROMADDR
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        ... node has no more children
+                       ==
+                       <expr4>
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           *** Generating:  6:      PUSHNUM           1
+                           UNSIGNED INTEGER LITERAL: 1
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        ... node has no more children
+                       *** Generating:  7:      EQ
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    )
+                    ... node has no more children
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                ... node has no more children
+               ... node has no more children
+              |
+              <expr6>
+               <expr5>
+                <expr4>
+                 <expr3>
+                  <expr2>
+                   <expr1>
+                    (
+                    <expr7>
+                     <expr6>
+                      <expr5>
+                       <expr4>
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           IDENTIFIER: done  [local var (stackframe offset = 1)]
+                           *** Generating:  8:      PUSHLOCADDR       1
+                           *** Generating:  9:      LOADFROMADDR
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        ... node has no more children
+                       ==
+                       <expr4>
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           *** Generating:  10:     PUSHNUM           2
+                           UNSIGNED INTEGER LITERAL: 2
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        ... node has no more children
+                       *** Generating:  11:     EQ
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    )
+                    ... node has no more children
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                ... node has no more children
+               ... node has no more children
+              *** Generating:  12:     OR
+              |
+              <expr6>
+               <expr5>
+                <expr4>
+                 <expr3>
+                  <expr2>
+                   <expr1>
+                    (
+                    <expr7>
+                     <expr6>
+                      <expr5>
+                       <expr4>
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           IDENTIFIER: done  [local var (stackframe offset = 1)]
+                           *** Generating:  13:     PUSHLOCADDR       1
+                           *** Generating:  14:     LOADFROMADDR
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        <
+                        <expr3>
+                         <expr2>
+                          <expr1>
+                           *** Generating:  15:     PUSHNUM           0
+                           UNSIGNED INTEGER LITERAL: 0
+                           ... node has no more children
+                          ... node has no more children
+                         ... node has no more children
+                        *** Generating:  16:     LT
+                        ... node has no more children
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    )
+                    ... node has no more children
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                ... node has no more children
+               ... node has no more children
+              *** Generating:  17:     OR
+              ... node has no more children
+             )
+             ... node has no more children
+            *** Generating:  18:     NOT
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      ... node has no more children
+     *** Generating:  19:     JUMPONFALSE       ?
+     )
+     <statement>
+      <compoundStmt>
+       {
+       <statement>
+        <varDecl>
+         Reserved Word: Scanner
+         IDENTIFIER: input  [local Scanner]
+         =
+         Reserved Word: new
+         Reserved Word: Scanner
+         (
+         Reserved Word: System
+         .
+         Reserved Word: in
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: println
+         (
+         *** Generating:  20:     WRITELNOP
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: print
+         (
+         <printArgument>
+          CHARACTER STRING LITERAL: "Enter an integer: "
+          *** Generating:  21:     WRITESTRING       0     17
+          ... node has no more children
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <varDecl>
+         Reserved Word: int
+         <singleVarDecl>
+          IDENTIFIER: n1  [not in symbol table]
+          =
+          *** Generating:  22:     PUSHLOCADDR       2
+          <expr3>
+           <expr2>
+            <expr1>
+             IDENTIFIER: input  [local Scanner]
+             .
+             Reserved Word: nextInt
+             (
+             )
+             *** Generating:  23:     READINT
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          *** Generating:  24:     SAVETOADDR
+          ... node has no more children
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: print
+         (
+         <printArgument>
+          CHARACTER STRING LITERAL: "Now enter a different integer: "
+          *** Generating:  25:     WRITESTRING       18    48
+          ... node has no more children
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <varDecl>
+         Reserved Word: int
+         <singleVarDecl>
+          IDENTIFIER: n2  [not in symbol table]
+          =
+          *** Generating:  26:     PUSHLOCADDR       3
+          <expr3>
+           <expr2>
+            <expr1>
+             IDENTIFIER: input  [local Scanner]
+             .
+             Reserved Word: nextInt
+             (
+             )
+             *** Generating:  27:     READINT
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          *** Generating:  28:     SAVETOADDR
+          ... node has no more children
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: print
+         (
+         <printArgument>
+          CHARACTER STRING LITERAL: "Now enter a third integer: "
+          *** Generating:  29:     WRITESTRING       49    75
+          ... node has no more children
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <varDecl>
+         Reserved Word: int
+         <singleVarDecl>
+          IDENTIFIER: n3  [not in symbol table]
+          =
+          *** Generating:  30:     PUSHLOCADDR       4
+          <expr3>
+           <expr2>
+            <expr1>
+             IDENTIFIER: input  [local Scanner]
+             .
+             Reserved Word: nextInt
+             (
+             )
+             *** Generating:  31:     READINT
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          *** Generating:  32:     SAVETOADDR
+          ... node has no more children
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <ifStmt>
+         Reserved Word: if
+         (
+         <expr7>
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                (
+                <expr7>
+                 <expr6>
+                  <expr5>
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n1  [local var (stackframe offset = 2)]
+                       *** Generating:  33:     PUSHLOCADDR       2
+                       *** Generating:  34:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   ==
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n2  [local var (stackframe offset = 3)]
+                       *** Generating:  35:     PUSHLOCADDR       3
+                       *** Generating:  36:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   *** Generating:  37:     EQ
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                )
+                ... node has no more children
+               ... node has no more children
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          |
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                (
+                <expr7>
+                 <expr6>
+                  <expr5>
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n1  [local var (stackframe offset = 2)]
+                       *** Generating:  38:     PUSHLOCADDR       2
+                       *** Generating:  39:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   ==
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n3  [local var (stackframe offset = 4)]
+                       *** Generating:  40:     PUSHLOCADDR       4
+                       *** Generating:  41:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   *** Generating:  42:     EQ
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                )
+                ... node has no more children
+               ... node has no more children
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          *** Generating:  43:     OR
+          |
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                (
+                <expr7>
+                 <expr6>
+                  <expr5>
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n2  [local var (stackframe offset = 3)]
+                       *** Generating:  44:     PUSHLOCADDR       3
+                       *** Generating:  45:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   ==
+                   <expr4>
+                    <expr3>
+                     <expr2>
+                      <expr1>
+                       IDENTIFIER: n3  [local var (stackframe offset = 4)]
+                       *** Generating:  46:     PUSHLOCADDR       4
+                       *** Generating:  47:     LOADFROMADDR
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   *** Generating:  48:     EQ
+                   ... node has no more children
+                  ... node has no more children
+                 ... node has no more children
+                )
+                ... node has no more children
+               ... node has no more children
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          *** Generating:  49:     OR
+          ... node has no more children
+         )
+         *** Generating:  50:     JUMPONFALSE       ?
+         <statement>
+          <outputStmt>
+           Reserved Word: System
+           .
+           Reserved Word: out
+           .
+           Reserved Word: println
+           (
+           <printArgument>
+            CHARACTER STRING LITERAL: "Your three numbers are not distinct!"
+            *** Generating:  51:     WRITESTRING       76    111
+            ... node has no more children
+           *** Generating:  52:     WRITELNOP
+           )
+           ;
+           ... node has no more children
+          ... node has no more children
+         Reserved Word: else
+         *** Generating:  53:     JUMP              ?
+         *** Fixed Up:  50:     JUMPONFALSE       54
+         <statement>
+          <ifStmt>
+           Reserved Word: if
+           (
+           <expr7>
+            <expr6>
+             <expr5>
+              <expr4>
+               <expr3>
+                <expr2>
+                 <expr1>
+                  (
+                  <expr7>
+                   <expr6>
+                    <expr5>
+                     <expr4>
+                      <expr3>
+                       <expr2>
+                        <expr1>
+                         (
+                         <expr7>
+                          <expr6>
+                           <expr5>
+                            <expr4>
+                             <expr3>
+                              <expr2>
+                               <expr1>
+                                IDENTIFIER: n1  [local var (stackframe offset = 2)]
+                                *** Generating:  54:     PUSHLOCADDR       2
+                                *** Generating:  55:     LOADFROMADDR
+                                ... node has no more children
+                               *
+                               <expr1>
+                                IDENTIFIER: n1  [local var (stackframe offset = 2)]
+                                *** Generating:  56:     PUSHLOCADDR       2
+                                *** Generating:  57:     LOADFROMADDR
+                                ... node has no more children
+                               *** Generating:  58:     MUL
+                               ... node has no more children
+                              ... node has no more children
+                             ... node has no more children
+                            ... node has no more children
+                           ... node has no more children
+                          ... node has no more children
+                         )
+                         ... node has no more children
+                        ... node has no more children
+                       +
+                       <expr2>
+                        <expr1>
+                         (
+                         <expr7>
+                          <expr6>
+                           <expr5>
+                            <expr4>
+                             <expr3>
+                              <expr2>
+                               <expr1>
+                                IDENTIFIER: n2  [local var (stackframe offset = 3)]
+                                *** Generating:  59:     PUSHLOCADDR       3
+                                *** Generating:  60:     LOADFROMADDR
+                                ... node has no more children
+                               *
+                               <expr1>
+                                IDENTIFIER: n2  [local var (stackframe offset = 3)]
+                                *** Generating:  61:     PUSHLOCADDR       3
+                                *** Generating:  62:     LOADFROMADDR
+                                ... node has no more children
+                               *** Generating:  63:     MUL
+                               ... node has no more children
+                              ... node has no more children
+                             ... node has no more children
+                            ... node has no more children
+                           ... node has no more children
+                          ... node has no more children
+                         )
+                         ... node has no more children
+                        ... node has no more children
+                       *** Generating:  64:     ADD
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   ... node has no more children
+                  )
+                  ... node has no more children
+                 ... node has no more children
+                ... node has no more children
+               ... node has no more children
+              ==
+              <expr4>
+               <expr3>
+                <expr2>
+                 <expr1>
+                  (
+                  <expr7>
+                   <expr6>
+                    <expr5>
+                     <expr4>
+                      <expr3>
+                       <expr2>
+                        <expr1>
+                         IDENTIFIER: n3  [local var (stackframe offset = 4)]
+                         *** Generating:  65:     PUSHLOCADDR       4
+                         *** Generating:  66:     LOADFROMADDR
+                         ... node has no more children
+                        *
+                        <expr1>
+                         IDENTIFIER: n3  [local var (stackframe offset = 4)]
+                         *** Generating:  67:     PUSHLOCADDR       4
+                         *** Generating:  68:     LOADFROMADDR
+                         ... node has no more children
+                        *** Generating:  69:     MUL
+                        ... node has no more children
+                       ... node has no more children
+                      ... node has no more children
+                     ... node has no more children
+                    ... node has no more children
+                   ... node has no more children
+                  )
+                  ... node has no more children
+                 ... node has no more children
+                ... node has no more children
+               ... node has no more children
+              *** Generating:  70:     EQ
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           )
+           *** Generating:  71:     JUMPONFALSE       ?
+           <statement>
+            <outputStmt>
+             Reserved Word: System
+             .
+             Reserved Word: out
+             .
+             Reserved Word: println
+             (
+             <printArgument>
+              CHARACTER STRING LITERAL: "You entered a Pythagorean triple!"
+              *** Generating:  72:     WRITESTRING       112   144
+              ... node has no more children
+             *** Generating:  73:     WRITELNOP
+             )
+             ;
+             ... node has no more children
+            ... node has no more children
+           Reserved Word: else
+           *** Generating:  74:     JUMP              ?
+           *** Fixed Up:  71:     JUMPONFALSE       75
+           <statement>
+            <outputStmt>
+             Reserved Word: System
+             .
+             Reserved Word: out
+             .
+             Reserved Word: println
+             (
+             <printArgument>
+              CHARACTER STRING LITERAL: "You did not enter a Pythagorean triple."
+              *** Generating:  75:     WRITESTRING       145   183
+              ... node has no more children
+             *** Generating:  76:     WRITELNOP
+             )
+             ;
+             ... node has no more children
+            ... node has no more children
+           *** Fixed Up:  74:     JUMP              77
+           ... node has no more children
+          ... node has no more children
+         *** Fixed Up:  53:     JUMP              77
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: println
+         (
+         *** Generating:  77:     WRITELNOP
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: print
+         (
+         <printArgument>
+          CHARACTER STRING LITERAL: "Type 1 or 2 or a negative integer to quit, "
+          *** Generating:  78:     WRITESTRING       184   226
+          ... node has no more children
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <outputStmt>
+         Reserved Word: System
+         .
+         Reserved Word: out
+         .
+         Reserved Word: print
+         (
+         <printArgument>
+          CHARACTER STRING LITERAL: "any other integer to continue: "
+          *** Generating:  79:     WRITESTRING       227   257
+          ... node has no more children
+         )
+         ;
+         ... node has no more children
+        ... node has no more children
+       <statement>
+        <assignmentOrInvoc>
+         IDENTIFIER: done  [local var (stackframe offset = 1)]
+         *** Generating:  80:     PUSHLOCADDR       1
+         =
+         <expr3>
+          <expr2>
+           <expr1>
+            IDENTIFIER: input  [local Scanner]
+            .
+            Reserved Word: nextInt
+            (
+            )
+            *** Generating:  81:     READINT
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         *** Generating:  82:     SAVETOADDR
+         ;
+         ... node has no more children
+        ... node has no more children
+       }
+       ... node has no more children
+      ... node has no more children
+     *** Generating:  83:     JUMP              4
+     *** Fixed Up:  19:     JUMPONFALSE       84
+     ... node has no more children
+    ... node has no more children
+   }
+   ... node has no more children
+  *** Fixed Up:  0:      INITSTKFRM        4
+  *** Generating:  84:     STOP
+  ... node has no more children
+ }
+ ... node has no more children
+
+
+
+Instructions Generated:
+
+0:      INITSTKFRM        4
+1:      PUSHLOCADDR       1
+2:      PUSHNUM           0
+3:      SAVETOADDR
+4:      PUSHLOCADDR       1
+5:      LOADFROMADDR
+6:      PUSHNUM           1
+7:      EQ
+8:      PUSHLOCADDR       1
+9:      LOADFROMADDR
+10:     PUSHNUM           2
+11:     EQ
+12:     OR
+13:     PUSHLOCADDR       1
+14:     LOADFROMADDR
+15:     PUSHNUM           0
+16:     LT
+17:     OR
+18:     NOT
+19:     JUMPONFALSE       84
+20:     WRITELNOP
+21:     WRITESTRING       0     17
+22:     PUSHLOCADDR       2
+23:     READINT
+24:     SAVETOADDR
+25:     WRITESTRING       18    48
+26:     PUSHLOCADDR       3
+27:     READINT
+28:     SAVETOADDR
+29:     WRITESTRING       49    75
+30:     PUSHLOCADDR       4
+31:     READINT
+32:     SAVETOADDR
+33:     PUSHLOCADDR       2
+34:     LOADFROMADDR
+35:     PUSHLOCADDR       3
+36:     LOADFROMADDR
+37:     EQ
+38:     PUSHLOCADDR       2
+39:     LOADFROMADDR
+40:     PUSHLOCADDR       4
+41:     LOADFROMADDR
+42:     EQ
+43:     OR
+44:     PUSHLOCADDR       3
+45:     LOADFROMADDR
+46:     PUSHLOCADDR       4
+47:     LOADFROMADDR
+48:     EQ
+49:     OR
+50:     JUMPONFALSE       54
+51:     WRITESTRING       76    111
+52:     WRITELNOP
+53:     JUMP              77
+54:     PUSHLOCADDR       2
+55:     LOADFROMADDR
+56:     PUSHLOCADDR       2
+57:     LOADFROMADDR
+58:     MUL
+59:     PUSHLOCADDR       3
+60:     LOADFROMADDR
+61:     PUSHLOCADDR       3
+62:     LOADFROMADDR
+63:     MUL
+64:     ADD
+65:     PUSHLOCADDR       4
+66:     LOADFROMADDR
+67:     PUSHLOCADDR       4
+68:     LOADFROMADDR
+69:     MUL
+70:     EQ
+71:     JUMPONFALSE       75
+72:     WRITESTRING       112   144
+73:     WRITELNOP
+74:     JUMP              77
+75:     WRITESTRING       145   183
+76:     WRITELNOP
+77:     WRITELNOP
+78:     WRITESTRING       184   226
+79:     WRITESTRING       227   257
+80:     PUSHLOCADDR       1
+81:     READINT
+82:     SAVETOADDR
+83:     JUMP              4
+84:     STOP

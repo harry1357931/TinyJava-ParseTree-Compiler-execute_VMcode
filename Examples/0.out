@@ -1,0 +1,724 @@
+<program>
+ Reserved Word: class
+ IDENTIFIER: CS316ex0  [not in symbol table]
+ {
+ <dataFieldDecl>
+  Reserved Word: static
+  <varDecl>
+   Reserved Word: int
+   <singleVarDecl>
+    IDENTIFIER: x  [not in symbol table]
+    =
+    *** Generating:  0:      PUSHSTATADDR      0
+    <expr3>
+     <expr2>
+      <expr1>
+       *** Generating:  1:      PUSHNUM           17
+       UNSIGNED INTEGER LITERAL: 17
+       ... node has no more children
+      ... node has no more children
+     ... node has no more children
+    *** Generating:  2:      SAVETOADDR
+    ... node has no more children
+   ,
+   <singleVarDecl>
+    IDENTIFIER: y  [not in symbol table]
+    =
+    *** Generating:  3:      PUSHSTATADDR      1
+    <expr3>
+     <expr2>
+      <expr1>
+       -
+       <expr1>
+        *** Generating:  4:      PUSHNUM           3
+        UNSIGNED INTEGER LITERAL: 3
+        ... node has no more children
+       *** Generating:  5:      CHANGESIGN
+       ... node has no more children
+      ... node has no more children
+     ... node has no more children
+    *** Generating:  6:      SAVETOADDR
+    ... node has no more children
+   ,
+   <singleVarDecl>
+    IDENTIFIER: z  [not in symbol table]
+    =
+    *** Generating:  7:      PUSHSTATADDR      2
+    <expr3>
+     <expr2>
+      <expr1>
+       (
+       <expr7>
+        <expr6>
+         <expr5>
+          <expr4>
+           <expr3>
+            <expr2>
+             <expr1>
+              IDENTIFIER: x  [static var (address = 0)]
+              *** Generating:  8:      PUSHSTATADDR      0
+              *** Generating:  9:      LOADFROMADDR
+              ... node has no more children
+             ... node has no more children
+            +
+            <expr2>
+             <expr1>
+              IDENTIFIER: y  [static var (address = 1)]
+              *** Generating:  10:     PUSHSTATADDR      1
+              *** Generating:  11:     LOADFROMADDR
+              ... node has no more children
+             ... node has no more children
+            *** Generating:  12:     ADD
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         ... node has no more children
+        ... node has no more children
+       )
+       ... node has no more children
+      *
+      <expr1>
+       (
+       <expr7>
+        <expr6>
+         <expr5>
+          <expr4>
+           <expr3>
+            <expr2>
+             <expr1>
+              IDENTIFIER: x  [static var (address = 0)]
+              *** Generating:  13:     PUSHSTATADDR      0
+              *** Generating:  14:     LOADFROMADDR
+              ... node has no more children
+             ... node has no more children
+            -
+            <expr2>
+             <expr1>
+              IDENTIFIER: y  [static var (address = 1)]
+              *** Generating:  15:     PUSHSTATADDR      1
+              *** Generating:  16:     LOADFROMADDR
+              ... node has no more children
+             ... node has no more children
+            *** Generating:  17:     SUB
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         ... node has no more children
+        ... node has no more children
+       )
+       ... node has no more children
+      *** Generating:  18:     MUL
+      /
+      <expr1>
+       (
+       <expr7>
+        <expr6>
+         <expr5>
+          <expr4>
+           <expr3>
+            <expr2>
+             <expr1>
+              IDENTIFIER: x  [static var (address = 0)]
+              *** Generating:  19:     PUSHSTATADDR      0
+              *** Generating:  20:     LOADFROMADDR
+              ... node has no more children
+             *
+             <expr1>
+              IDENTIFIER: x  [static var (address = 0)]
+              *** Generating:  21:     PUSHSTATADDR      0
+              *** Generating:  22:     LOADFROMADDR
+              ... node has no more children
+             *** Generating:  23:     MUL
+             ... node has no more children
+            -
+            <expr2>
+             <expr1>
+              IDENTIFIER: y  [static var (address = 1)]
+              *** Generating:  24:     PUSHSTATADDR      1
+              *** Generating:  25:     LOADFROMADDR
+              ... node has no more children
+             *
+             <expr1>
+              IDENTIFIER: y  [static var (address = 1)]
+              *** Generating:  26:     PUSHSTATADDR      1
+              *** Generating:  27:     LOADFROMADDR
+              ... node has no more children
+             *** Generating:  28:     MUL
+             ... node has no more children
+            *** Generating:  29:     SUB
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         ... node has no more children
+        ... node has no more children
+       )
+       ... node has no more children
+      *** Generating:  30:     DIV
+      ... node has no more children
+     ... node has no more children
+    *** Generating:  31:     SAVETOADDR
+    ... node has no more children
+   ;
+   ... node has no more children
+  ... node has no more children
+ <mainDecl>
+  Reserved Word: public
+  Reserved Word: static
+  Reserved Word: void
+  Reserved Word: main
+  (
+  Reserved Word: String
+  IDENTIFIER: argv  [not in symbol table]
+  [
+  ]
+  )
+  *** Generating:  32:     INITSTKFRM        ?
+  <compoundStmt>
+   {
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "292 / 8 = "
+      *** Generating:  33:     WRITESTRING       3     12
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  34:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         (
+         <expr7>
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                IDENTIFIER: x  [static var (address = 0)]
+                *** Generating:  35:     PUSHSTATADDR      0
+                *** Generating:  36:     LOADFROMADDR
+                ... node has no more children
+               *
+               <expr1>
+                IDENTIFIER: x  [static var (address = 0)]
+                *** Generating:  37:     PUSHSTATADDR      0
+                *** Generating:  38:     LOADFROMADDR
+                ... node has no more children
+               *** Generating:  39:     MUL
+               ... node has no more children
+              -
+              <expr2>
+               <expr1>
+                IDENTIFIER: y  [static var (address = 1)]
+                *** Generating:  40:     PUSHSTATADDR      1
+                *** Generating:  41:     LOADFROMADDR
+                ... node has no more children
+               ... node has no more children
+              *** Generating:  42:     SUB
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         )
+         ... node has no more children
+        /
+        <expr1>
+         (
+         <expr7>
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                IDENTIFIER: x  [static var (address = 0)]
+                *** Generating:  43:     PUSHSTATADDR      0
+                *** Generating:  44:     LOADFROMADDR
+                ... node has no more children
+               ... node has no more children
+              -
+              <expr2>
+               <expr1>
+                IDENTIFIER: y  [static var (address = 1)]
+                *** Generating:  45:     PUSHSTATADDR      1
+                *** Generating:  46:     LOADFROMADDR
+                ... node has no more children
+               *
+               <expr1>
+                IDENTIFIER: y  [static var (address = 1)]
+                *** Generating:  47:     PUSHSTATADDR      1
+                *** Generating:  48:     LOADFROMADDR
+                ... node has no more children
+               *** Generating:  49:     MUL
+               ... node has no more children
+              *** Generating:  50:     SUB
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         )
+         ... node has no more children
+        *** Generating:  51:     DIV
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  52:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "289 % 9 = "
+      *** Generating:  53:     WRITESTRING       13    22
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  54:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         IDENTIFIER: x  [static var (address = 0)]
+         *** Generating:  55:     PUSHSTATADDR      0
+         *** Generating:  56:     LOADFROMADDR
+         ... node has no more children
+        *
+        <expr1>
+         IDENTIFIER: y  [static var (address = 1)]
+         *** Generating:  57:     PUSHSTATADDR      1
+         *** Generating:  58:     LOADFROMADDR
+         ... node has no more children
+        *** Generating:  59:     MUL
+        /
+        <expr1>
+         IDENTIFIER: y  [static var (address = 1)]
+         *** Generating:  60:     PUSHSTATADDR      1
+         *** Generating:  61:     LOADFROMADDR
+         ... node has no more children
+        *** Generating:  62:     DIV
+        *
+        <expr1>
+         IDENTIFIER: x  [static var (address = 0)]
+         *** Generating:  63:     PUSHSTATADDR      0
+         *** Generating:  64:     LOADFROMADDR
+         ... node has no more children
+        *** Generating:  65:     MUL
+        %
+        <expr1>
+         (
+         <expr7>
+          <expr6>
+           <expr5>
+            <expr4>
+             <expr3>
+              <expr2>
+               <expr1>
+                IDENTIFIER: y  [static var (address = 1)]
+                *** Generating:  66:     PUSHSTATADDR      1
+                *** Generating:  67:     LOADFROMADDR
+                ... node has no more children
+               *
+               <expr1>
+                IDENTIFIER: y  [static var (address = 1)]
+                *** Generating:  68:     PUSHSTATADDR      1
+                *** Generating:  69:     LOADFROMADDR
+                ... node has no more children
+               *** Generating:  70:     MUL
+               ... node has no more children
+              ... node has no more children
+             ... node has no more children
+            ... node has no more children
+           ... node has no more children
+          ... node has no more children
+         )
+         ... node has no more children
+        *** Generating:  71:     MOD
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  72:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "1 = "
+      *** Generating:  73:     WRITESTRING       23    26
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  74:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         IDENTIFIER: z  [static var (address = 2)]
+         *** Generating:  75:     PUSHSTATADDR      2
+         *** Generating:  76:     LOADFROMADDR
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  77:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "17 = "
+      *** Generating:  78:     WRITESTRING       27    31
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  79:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         IDENTIFIER: x  [static var (address = 0)]
+         *** Generating:  80:     PUSHSTATADDR      0
+         *** Generating:  81:     LOADFROMADDR
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  82:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "-3 = "
+      *** Generating:  83:     WRITESTRING       32    36
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  84:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         IDENTIFIER: y  [static var (address = 1)]
+         *** Generating:  85:     PUSHSTATADDR      1
+         *** Generating:  86:     LOADFROMADDR
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  87:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "-17 = "
+      *** Generating:  88:     WRITESTRING       37    42
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  89:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         -
+         <expr1>
+          IDENTIFIER: x  [static var (address = 0)]
+          *** Generating:  90:     PUSHSTATADDR      0
+          *** Generating:  91:     LOADFROMADDR
+          ... node has no more children
+         *** Generating:  92:     CHANGESIGN
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  93:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: print
+     (
+     <printArgument>
+      CHARACTER STRING LITERAL: "-3 = "
+      *** Generating:  94:     WRITESTRING       43    47
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  95:     WRITELNOP
+     <printArgument>
+      <expr3>
+       <expr2>
+        <expr1>
+         -
+         <expr1>
+          *** Generating:  96:     PUSHNUM           3
+          UNSIGNED INTEGER LITERAL: 3
+          ... node has no more children
+         *** Generating:  97:     CHANGESIGN
+         ... node has no more children
+        ... node has no more children
+       ... node has no more children
+      *** Generating:  98:     WRITEINT
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   <statement>
+    <outputStmt>
+     Reserved Word: System
+     .
+     Reserved Word: out
+     .
+     Reserved Word: println
+     (
+     *** Generating:  99:     WRITELNOP
+     <printArgument>
+      CHARACTER STRING LITERAL: "How did I do?"
+      *** Generating:  100:    WRITESTRING       48    60
+      ... node has no more children
+     )
+     ;
+     ... node has no more children
+    ... node has no more children
+   }
+   ... node has no more children
+  *** Fixed Up:  32:     INITSTKFRM        0
+  *** Generating:  101:    STOP
+  ... node has no more children
+ }
+ ... node has no more children
+
+
+
+Instructions Generated:
+
+0:      PUSHSTATADDR      0
+1:      PUSHNUM           17
+2:      SAVETOADDR
+3:      PUSHSTATADDR      1
+4:      PUSHNUM           3
+5:      CHANGESIGN
+6:      SAVETOADDR
+7:      PUSHSTATADDR      2
+8:      PUSHSTATADDR      0
+9:      LOADFROMADDR
+10:     PUSHSTATADDR      1
+11:     LOADFROMADDR
+12:     ADD
+13:     PUSHSTATADDR      0
+14:     LOADFROMADDR
+15:     PUSHSTATADDR      1
+16:     LOADFROMADDR
+17:     SUB
+18:     MUL
+19:     PUSHSTATADDR      0
+20:     LOADFROMADDR
+21:     PUSHSTATADDR      0
+22:     LOADFROMADDR
+23:     MUL
+24:     PUSHSTATADDR      1
+25:     LOADFROMADDR
+26:     PUSHSTATADDR      1
+27:     LOADFROMADDR
+28:     MUL
+29:     SUB
+30:     DIV
+31:     SAVETOADDR
+32:     INITSTKFRM        0
+33:     WRITESTRING       3     12
+34:     WRITELNOP
+35:     PUSHSTATADDR      0
+36:     LOADFROMADDR
+37:     PUSHSTATADDR      0
+38:     LOADFROMADDR
+39:     MUL
+40:     PUSHSTATADDR      1
+41:     LOADFROMADDR
+42:     SUB
+43:     PUSHSTATADDR      0
+44:     LOADFROMADDR
+45:     PUSHSTATADDR      1
+46:     LOADFROMADDR
+47:     PUSHSTATADDR      1
+48:     LOADFROMADDR
+49:     MUL
+50:     SUB
+51:     DIV
+52:     WRITEINT
+53:     WRITESTRING       13    22
+54:     WRITELNOP
+55:     PUSHSTATADDR      0
+56:     LOADFROMADDR
+57:     PUSHSTATADDR      1
+58:     LOADFROMADDR
+59:     MUL
+60:     PUSHSTATADDR      1
+61:     LOADFROMADDR
+62:     DIV
+63:     PUSHSTATADDR      0
+64:     LOADFROMADDR
+65:     MUL
+66:     PUSHSTATADDR      1
+67:     LOADFROMADDR
+68:     PUSHSTATADDR      1
+69:     LOADFROMADDR
+70:     MUL
+71:     MOD
+72:     WRITEINT
+73:     WRITESTRING       23    26
+74:     WRITELNOP
+75:     PUSHSTATADDR      2
+76:     LOADFROMADDR
+77:     WRITEINT
+78:     WRITESTRING       27    31
+79:     WRITELNOP
+80:     PUSHSTATADDR      0
+81:     LOADFROMADDR
+82:     WRITEINT
+83:     WRITESTRING       32    36
+84:     WRITELNOP
+85:     PUSHSTATADDR      1
+86:     LOADFROMADDR
+87:     WRITEINT
+88:     WRITESTRING       37    42
+89:     WRITELNOP
+90:     PUSHSTATADDR      0
+91:     LOADFROMADDR
+92:     CHANGESIGN
+93:     WRITEINT
+94:     WRITESTRING       43    47
+95:     WRITELNOP
+96:     PUSHNUM           3
+97:     CHANGESIGN
+98:     WRITEINT
+99:     WRITELNOP
+100:    WRITESTRING       48    60
+101:    STOP
