@@ -24,9 +24,9 @@ There were total of 3 TinyJ assignments, Check the bottom of this file to get hi
 <br>About 30% of Code in Tiny J(Tiny Java) assignment is written by me  -- Gurpreet Singh, and 70% is 
 done by Professor Kong (Phd.-Oxford University) 
 <br>I wrote code for:
-<br>1) ParserAndTranslator.java  at location  TJasn\ParserAndTranslator.java 
-<br>2) execute() method of all 30 Instructions in this folder Location: TJasn\virtualmachine\
-<br>3) ParserAndTranslator.java     \TJ1asn\Parser.java 
+<br>1) <b>ParserAndTranslator.java</b>  at location  <b>TJasn\ParserAndTranslator.java</b> 
+<br>2) <b>execute()</b> method of approx. 30 Instructions at folder Location: <b>TJasn\virtualmachine\</b>
+<br>3) <b>Parser.java</b>     \TJ1asn\Parser.java </b>
 
 To know more about Tiny J:
 =========================
